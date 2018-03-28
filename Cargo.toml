@@ -1,0 +1,13 @@
+[package]
+name = "gba-rust-template"
+version = "0.1.0"
+authors = ["Alex Fence <alexfence.code@gmail.com>"]
+
+[dependencies]
+# gbalib = { git = "https://github.com/jkarns275/stdgba", version = "*" }
+gbalib = { path = "../../_external/stdgba", version = "*" }
+
+
+[lib]
+crate-type = ["staticlib"]
+name = "game"
