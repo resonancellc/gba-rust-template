@@ -1,6 +1,8 @@
 # GBA Rust Template
 this is a small repository, you can clone to for starting a new Rust project for the GBA!
 
+It uses the this [library](https://github.com/jkarns275/stdgba).
+
 ## Dependencies
 sadly there is quite a lot you need to have installed.
 
@@ -111,5 +113,16 @@ By default it runs "mgba". You can change the command, by changing the Emulator 
 ##### clean
 This deletes all the binaries, located at "./target". You could also run:
 ```
-xargo doc --open
+xargo clean
 ```
+
+## Credits
+The Repositry of the Library doesn't have a license as of now, **BUT** I was told by the author that I could do what ever with his gba related projects.
+He also told me that he would add one, but hasn't done it as of now.
+
+I pulled the files:
+- /src/begin.s
+- linker.ld
+- gba.json
+
+and some parts of */src/lib.rs* from [here](https://github.com/jkarns275/g).
