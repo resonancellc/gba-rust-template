@@ -1,7 +1,7 @@
 # GBA Rust Template
-this is a small repository, you can clone to for starting a new Rust project for the GBA!
+this is a small repository, you can clone for starting a new Rust project for the GBA!
 
-It uses the this [library](https://github.com/jkarns275/stdgba).
+It uses the [library](https://github.com/jkarns275/stdgba).
 
 ## Dependencies
 sadly there is quite a lot you need to have installed.
