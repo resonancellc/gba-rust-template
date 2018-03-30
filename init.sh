@@ -7,6 +7,9 @@ else
     echo "Just edit the Cargo.toml manually!"
 fi
 
+rm -r -f .git
+git init
+
 sh ./remove-init.sh
 echo "Removed all init scripts!"
 echo "Happy Programming!"
