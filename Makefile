@@ -14,3 +14,6 @@ doc:
 
 run: all
 	$(Emulator) target/gba/release/game.gba
+
+clean:
+	xargo clean

@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 echo "Please enter following info about your new project!"
 
 if hash python3 2>/dev/null; then
@@ -7,9 +8,4 @@ else
     echo "Just edit the Cargo.toml manually!"
 fi
 
-rm -r -f .git
-git init
-
-sh ./remove-init.sh
-echo "Removed all init scripts!"
-echo "Happy Programming!"
+exec ./remove-init.sh
